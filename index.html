@@ -12,21 +12,16 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
-    <header
-      class="page-header page page__page-header block block__header-background"
-    >
+    <header class="page-header page page__page-header">
       <div class="container page-header__container">
-        <nav class="nav page-header__nav">
-          <a
-            class="link-logo logo-accent logo page-header__logo"
-            href="web-studio"
-          >
+        <nav class="nav">
+          <a class="link-logo logo-accent logo" href="web-studio">
             <span class="logo-accent__label">Web</span>Studio
           </a>
           <ul class="menu list">
@@ -81,7 +76,12 @@
 
     <main>
       <section
-        class="main main--dark-background section-hero main__section-hero"
+        class="
+          block
+          section-hero
+          block__section-hero
+          section-hero--dark-background
+        "
       >
         <div class="container">
           <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
@@ -93,15 +93,7 @@
         </div>
       </section>
 
-      <section
-        class="
-          block block__header-background
-          section
-          block__section
-          advantage-section
-          block__advantage-section
-        "
-      >
+      <section class="block advantage-section block__advantage-section">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
 
@@ -161,9 +153,7 @@
         </div>
       </section>
 
-      <section
-        class="block block__header-background our-works block__our-works"
-      >
+      <section class="block our-works block__our-works">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="list card-set">
@@ -205,13 +195,7 @@
       </section>
 
       <section
-        class="
-          block block--color
-          section
-          block__section
-          advantage-section
-          block__advantage-section
-        "
+        class="block team-section block__team-section team-section--color"
       >
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
@@ -488,7 +472,7 @@
         </div>
       </section>
 
-      <section class="block block__header-background section block__section">
+      <section class="block clients-section block__clients-section">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="list clients-icons">
@@ -570,7 +554,12 @@
     </main>
 
     <footer
-      class="main main--dark-background footer-section main__footer-section"
+      class="
+        block
+        footer-section
+        block__footer-section
+        footer-section--dark-background
+      "
     >
       <div class="container container-list">
         <div class="footer-item footer-section__footer-item">
@@ -581,7 +570,7 @@
             <span class="logo-accent__label">Web</span>Studio
           </a>
 
-          <address class="address footer-item__adreess">
+          <address class="address">
             <ul class="list">
               <li class="address__item">
                 <a
@@ -612,55 +601,55 @@
         </div>
         <div class="footer-social footer-section__footer-social">
           <h3 class="footer-social__title">Присоединяйтесь</h3>
-          <ul class="list footer-social__list">
-            <li class="footer-social__item">
+          <ul class="list footer-social-icons">
+            <li class="footer-social-icons__item">
               <a
                 href=""
-                class="footer-social__link"
+                class="footer-social-icons__link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="footer-social__svg" width="20" height="20">
+                <svg class="footer-social-icons__svg" width="20" height="20">
                   <use
                     href="./images/icons/symbol-defs.svg#icon-instagram"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social__item">
+            <li class="footer-social-icons__item">
               <a
                 href=""
-                class="footer-social__link"
+                class="footer-social-icons__link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="footer-social__svg" width="20" height="20">
+                <svg class="footer-social-icons__svg" width="20" height="20">
                   <use href="./images/icons/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social__item">
+            <li class="footer-social-icons__item">
               <a
                 href=""
-                class="footer-social__link"
+                class="footer-social-icons__link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="footer-social__svg" width="20" height="20">
+                <svg class="footer-social-icons__svg" width="20" height="20">
                   <use
                     href="./images/icons/symbol-defs.svg#icon-facebook"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-social__item">
+            <li class="footer-social-icons__item">
               <a
                 href=""
-                class="footer-social__link"
+                class="footer-social-icons__link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <svg class="footer-social__svg" width="20" height="20">
+                <svg class="footer-social-icons__svg" width="20" height="20">
                   <use
                     href="./images/icons/symbol-defs.svg#icon-linkedin"
                   ></use>
